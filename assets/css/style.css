@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300&family=PT+Serif:ital@1&family=Ubuntu:wght@300&display=swap');
+
+* {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.arabic {
+    color: #000 !important;
+    font-family: 'Cairo', sans-serif !important;
+}
+
+body {
+    background-image: url(../image/old_paper.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+@media (max-width: 768px) {
+    body {
+        background-size: contain;
+    }
+}
+
+@media (max-width: 576px) {
+    body {
+        background-position: top;
+    }
+}
+
+@media (min-width: 769px) {
+    body {
+        background-image: url(../image/old_paper-h.png);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        text-align: center;
+    }
+    .top-title {
+        font-size: xx-large;
+    }
+    .channel-logo {
+        border-radius: 50%;
+        display: inline;
+        height: 150px !important;
+        width: 150px !important;
+    }
+    .arabic{
+        font-size: larger;
+    }
+    .text-box{
+        padding: 0px 20px;
+        width: 500px;
+    }
+}
+a {
+    color: #fff !important;
+    text-decoration: none !important;
+}
+
+.channel-logo {
+    border-radius: 50%;
+    display: inline;
+    height: 70px;
+    width: 70px;
+}
+
+.top-title {
+    display: inline;
+}
+
+.work-box {
+    justify-content: center;
+    text-align: center !important;
+    padding: 3% 20%;
+}
+
+.text-box {
+    margin: 0 40px;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px #3f3f3f;
+}
+
+.text-box:hover{
+    background-color: #33333336;
+}
+
+.link-name {
+    display: inline;
+}
+
+.logo-icon {
+    display: inline;
+    height: 20px;
+    width: 20px;
+}
+
+#current-islamic-date {
+    font-size: 16px;
+    color: #333;
+}
